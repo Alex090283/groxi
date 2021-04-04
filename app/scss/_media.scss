@@ -1,0 +1,103 @@
+@media(max-width: 1200px) {
+    .logo,
+    .header-top__links:last-child {
+        margin-right: 0;
+    }
+    .header-top__inner {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 991px) {
+    /* стили для больших планшетов - начало */
+    .header-top__links {
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 880px) {
+    
+    .header__list{
+        display: block;
+        text-align: center;
+        margin-top: 90px;
+    }
+    .header-top__list {
+        display: block;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .header-top__links{
+        margin-right: 0;        
+    }
+    .header__burger.active::before {        
+        top: -18px;
+        left: 100px;       
+    }
+    .header__burger.active::after {        
+        bottom: 36px;     
+        left: 100px;   
+    }
+}
+
+@media (max-width: 767px) {
+    /* стили для средних планшетов - начало */
+
+}
+@media (max-width: 630px) {
+    .header__burger.active::before { 
+        left: 150px;       
+    }
+    .header__burger.active::after {      
+        left: 150px;   
+    }    
+}
+
+@media (max-width: 479px) {
+    /* стили для телефонов - начало */
+    .container{
+        padding: 0px 15px;
+    }
+    .header-main__title {
+        font-size: 56px;
+        line-height: 58px;
+    }
+    .header__burger.active::before { 
+        left: 170px;       
+    }
+    .header__burger.active::after {      
+        left: 170px;   
+    } 
+    .socials__links:nth-child(2),
+    .socials__links:nth-child(3){
+        display: none;
+    }
+    .header__burger{
+        right: 130px;
+    }
+}
+@media (max-width: 417px) {
+    /* стили для телефонов - начало */
+    .header__burger.active::before { 
+        left: 170px;
+        top: -40px;       
+    }
+    .header__burger.active::after {      
+        left: 170px; 
+        bottom: 58px; 
+    } 
+    .socials__links{
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header__burger.active::before { 
+        left: 190px;
+            
+    }
+    .header__burger.active::after {      
+        left: 190px; 
+        
+    } 
+}
